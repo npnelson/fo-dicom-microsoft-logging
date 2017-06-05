@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Dicom.MicrosoftLogging</AssemblyName>
+    <PackageId>Dicom.MicrosoftLogging</PackageId>  
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Description>Microsoft Logging Adapter for fo-dicom</Description>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fo-dicom" Version="3.1.0-alpha" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.0.0-preview1-final" />
+  </ItemGroup>
+
+</Project>
